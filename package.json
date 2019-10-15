@@ -1,0 +1,24 @@
+{
+  "name": "bsit--assignment-backend-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:local": "NODE_ENV=local cross-env npm run start",
+    "start": "nodemon src/server.js",
+    "prettier": "prettier --config ./config/.prettierrc --write \"src/**/*.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "nodemon": "^1.19.3",
+    "prettier": "^1.18.2"
+  }
+}
