@@ -10,7 +10,7 @@ The code should be written in JavaScript, any library or framework can be used. 
 
 ## Dtails
 
-I chose to build a REST API using NodeJS, and for the frontend, you can find the repo here.
+I chose to build a REST API using NodeJS, and for the frontend, you can find the repo [here](https://github.com/KevinTss/bsit--assignment-frontend-vuejs).
 
 ### Quick start
 
